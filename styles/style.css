@@ -2,9 +2,7 @@
 .header {
   padding: 92px 0 96px;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-size: 18px;
-  font-weight: 400;
 }
 
 .layout {
@@ -18,16 +16,6 @@
   justify-self: end;
 }
 
-.nav-logo-container {
-  display: flex;
-  gap: 37px;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
-
 .menu__list {
   display: flex;
   gap: 13px;
@@ -36,7 +24,6 @@
 
 .menu__list-item {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 13px;
 }
@@ -47,7 +34,6 @@
 
 .menu__list-item:not(:first-child)::before {
   content: '';
-  display: inline-block;
   width: 6px;
   height: 6px;
   border: 0.5px solid black;
@@ -63,6 +49,7 @@
   width: 240px;
   display: flex;
   flex-direction: column;
+  font-style: normal;
   line-height: 1.35;
 }
 
