@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   gap: 13px;
+  line-height: 1;
 }
 
 .active-link {
@@ -45,7 +46,7 @@
   height: 105px;   
 }
 
-.header-layout__contacts-container {
+.contacts {
   width: 240px;
   display: flex;
   flex-direction: column;
