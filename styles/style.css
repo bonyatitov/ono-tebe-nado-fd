@@ -1,5 +1,6 @@
 /* Header start */
 .header {
+  height: 293px;
   padding: 92px 0 96px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -12,7 +13,7 @@
   padding: 0 50px;
 }
 
-.layout > :last-child {
+.layout> :last-child {
   justify-self: end;
 }
 
@@ -43,7 +44,7 @@
 
 .logo {
   width: 148px;
-  height: 105px;   
+  height: 105px;
 }
 
 .contacts {
@@ -55,5 +56,39 @@
 }
 
 /* HEADER END */
- 
 
+/* COVER START */
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 757px;
+  padding: 164px 50px 50px 50px;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 0 30%;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 115%;
+}
+
+.cover__title--start {
+  align-self: start;
+  flex-shrink: 1;
+}
+
+.cover__title-center {
+  align-self: center;
+  flex-shrink: 1;
+}
+
+.cover__title-end {
+  align-self: end;
+  flex-shrink: 1;
+}
