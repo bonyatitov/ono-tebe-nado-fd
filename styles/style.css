@@ -65,30 +65,51 @@
   justify-content: space-between;
   height: 757px;
   padding: 164px 50px 50px 50px;
+  text-transform: uppercase;
 }
 
 .cover__title {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex: 1 0 30%;
   font-size: 100px;
-  text-transform: uppercase;
+  font-weight: 700;
   letter-spacing: 0.3em;
   line-height: 115%;
 }
 
-.cover__title--start {
+.cover__title-start {
   align-self: start;
-  flex-shrink: 1;
 }
 
 .cover__title-center {
   align-self: center;
-  flex-shrink: 1;
 }
 
 .cover__title-end {
   align-self: end;
-  flex-shrink: 1;
+}
+
+.cover__bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  line-height: 127%
+}
+
+.cover__bottom-container--text {
+  
+}
+
+.cover__bottom-container--button {
+  width: 256px;
+  height: 51px;
+  background: none;
+  border: 1px solid black;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 127%;
+  text-transform: uppercase;
+  cursor: pointer;
 }
