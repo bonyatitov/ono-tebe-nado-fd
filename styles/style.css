@@ -63,7 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 757px;
+  min-height: 757px;
   padding: 164px 50px 50px 50px;
   text-transform: uppercase;
   color: #fff;
@@ -75,7 +75,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  gap: 20px;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 0.3em;
@@ -103,18 +103,15 @@
   justify-content: space-between;
   align-items: center;
   font-size: 22px;
-  line-height: 127%
+  line-height: 127%;
 }
 
 .cover__bottom-container--button {
   width: 256px;
   height: 51px;
   background: none;
-  border: 1px solid rgb(253, 251, 251);
+  border: 1px solid #fff;
   color: #fff;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 127%;
   text-transform: uppercase;
   cursor: pointer;
 }
