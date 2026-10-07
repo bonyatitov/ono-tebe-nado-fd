@@ -190,3 +190,38 @@
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('../images/card-lot-03.jpg') center / cover no-repeat;
 }
+
+/* ABOUT START */
+
+.about {
+  display: flex;
+  padding: 120px 24px 180px 24px;
+  gap: 72px;
+}
+
+.about__img-container {
+  width: 240px;
+  height: 240px;
+  padding: 64px 45.52px 62px 46.48px;
+  margin-top: 35px;
+  margin-left: 37px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.about__img {
+
+}
+
+.about__text-container {
+  width: 693px;
+  height: 449px;
+}
+
+.about__text-container-title {
+
+}
+
+.about__text-container-text {
+
+}
