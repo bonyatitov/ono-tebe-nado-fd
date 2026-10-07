@@ -1,5 +1,6 @@
 /* Header start */
 .header {
+  height: 293px;
   padding: 92px 0 96px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -12,7 +13,7 @@
   padding: 0 50px;
 }
 
-.layout > :last-child {
+.layout> :last-child {
   justify-self: end;
 }
 
@@ -43,7 +44,7 @@
 
 .logo {
   width: 148px;
-  height: 105px;   
+  height: 105px;
 }
 
 .contacts {
@@ -55,5 +56,62 @@
 }
 
 /* HEADER END */
- 
 
+/* COVER START */
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 164px 50px 50px 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg) center / cover no-repeat;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  line-height: 115%;
+}
+
+.cover__title-start {
+  align-self: start;
+}
+
+.cover__title-center {
+  align-self: center;
+}
+
+.cover__title-end {
+  align-self: end;
+}
+
+.cover__title span {
+  margin-right: -0.3em;
+}
+
+.cover__bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  line-height: 127%;
+}
+
+.cover__bottom-container--button {
+  width: 256px;
+  height: 51px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
