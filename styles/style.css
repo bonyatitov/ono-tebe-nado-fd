@@ -66,6 +66,10 @@
   height: 757px;
   padding: 164px 50px 50px 50px;
   text-transform: uppercase;
+  color: #fff;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg) center / cover no-repeat;
 }
 
 .cover__title {
@@ -90,6 +94,10 @@
   align-self: end;
 }
 
+.cover__title span {
+  margin-right: -0.3em;
+}
+
 .cover__bottom-container {
   display: flex;
   justify-content: space-between;
@@ -98,15 +106,12 @@
   line-height: 127%
 }
 
-.cover__bottom-container--text {
-  
-}
-
 .cover__bottom-container--button {
   width: 256px;
   height: 51px;
   background: none;
-  border: 1px solid black;
+  border: 1px solid rgb(253, 251, 251);
+  color: #fff;
   font-size: 22px;
   font-weight: 400;
   line-height: 127%;
