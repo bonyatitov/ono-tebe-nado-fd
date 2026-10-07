@@ -129,7 +129,7 @@
 .lots__title {
   margin-left: 40px;
   font-size: 40px;
-  font-weight: 700px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -143,7 +143,7 @@
 
 .lots__item {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   padding: 48px 40px;
   display: flex;
   flex-direction: column;
@@ -166,6 +166,7 @@
 }
 
 .lots__link-more {
+  align-self: start;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 20px;
@@ -173,19 +174,19 @@
 }
 
 .film-item {
-  background: 
-  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../images/card-lot-01.jpg') center / cover no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/card-lot-01.jpg') center / cover no-repeat;
 }
 
 .book-item {
   background:
-  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../images/card-lot-02.jpg') center / cover no-repeat;
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/card-lot-02.jpg') center / cover no-repeat;
 }
 
 .picture-item {
   background:
-  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../images/card-lot-03.jpg') center / cover no-repeat;
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/card-lot-03.jpg') center / cover no-repeat;
 }
