@@ -149,7 +149,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   color: #fff;
 }
 
@@ -174,13 +173,19 @@
 }
 
 .film-item {
-  background: url('../images/card-lot-01.jpg') center / cover no-repeat;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../images/card-lot-01.jpg') center / cover no-repeat;
 }
 
 .book-item {
-  background: url('../images/card-lot-02.jpg') center / cover no-repeat;
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../images/card-lot-02.jpg') center / cover no-repeat;
 }
 
 .picture-item {
-  background: url('../images/card-lot-03.jpg') center / cover no-repeat;
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../images/card-lot-03.jpg') center / cover no-repeat;
 }
