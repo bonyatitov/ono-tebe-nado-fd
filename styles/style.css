@@ -209,19 +209,26 @@
   border-radius: 50%;
 }
 
-.about__img {
-
-}
-
 .about__text-container {
+  margin-top: 136px;
   width: 693px;
   height: 449px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .about__text-container-title {
-
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .about__text-container-text {
-
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
 }
