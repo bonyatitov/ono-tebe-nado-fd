@@ -200,19 +200,25 @@
 }
 
 .about__img-container {
+  flex-shrink: 0;
   width: 240px;
   height: 240px;
-  padding: 64px 45.52px 62px 46.48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 35px;
   margin-left: 37px;
   background-color: black;
   border-radius: 50%;
 }
 
+.about__img {
+  width: 148px;
+}
+
 .about__text-container {
   margin-top: 136px;
   width: 693px;
-  height: 449px;
   display: flex;
   flex-direction: column;
   gap: 100px;
