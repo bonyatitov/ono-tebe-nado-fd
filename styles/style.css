@@ -238,3 +238,39 @@
   font-weight: 400;
   line-height: 120%;
 }
+
+/* ABOUT END */
+
+.footer {
+  min-height: 180px;
+  font-size: 18px;
+}
+
+.footer .layout {
+  align-items: start;
+}
+
+.footer-memu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.social {
+  display: flex;
+  gap: 48px;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__img {
+  width: 48px;
+}
