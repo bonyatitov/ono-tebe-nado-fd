@@ -1,6 +1,5 @@
 /* Header start */
 .header {
-  height: 293px;
   padding: 92px 0 96px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -242,7 +241,7 @@
 /* ABOUT END */
 
 .footer {
-  min-height: 180px;
+  padding: 0 50px 88px 50px;
   font-size: 18px;
 }
 
