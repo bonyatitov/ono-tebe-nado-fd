@@ -1,1 +1,276 @@
-/* место для вашего кода */
+/* Header start */
+.header {
+  height: 293px;
+  padding: 92px 0 96px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.layout> :last-child {
+  justify-self: end;
+}
+
+.menu__list {
+  display: flex;
+  gap: 13px;
+  list-style-type: none;
+}
+
+.menu__list-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  line-height: 1;
+}
+
+.active-link {
+  text-decoration: none;
+}
+
+.menu__list-item:not(:first-child)::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0.5px solid black;
+  border-radius: 100%;
+}
+
+.logo {
+  width: 148px;
+  height: 105px;
+}
+
+.contacts {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+/* HEADER END */
+
+/* COVER START */
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 164px 50px 50px 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg) center / cover no-repeat;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  line-height: 115%;
+}
+
+.cover__title-start {
+  align-self: start;
+}
+
+.cover__title-center {
+  align-self: center;
+}
+
+.cover__title-end {
+  align-self: end;
+}
+
+.cover__title span {
+  margin-right: -0.3em;
+}
+
+.cover__bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  line-height: 127%;
+}
+
+.cover__bottom-container--button {
+  width: 256px;
+  height: 51px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* COVER END */
+
+/* LOTS START */
+
+.lots {
+  padding: 180px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lots__title {
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lots__list {
+  margin-top: 27px;
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+
+}
+
+.lots__item {
+  width: 334px;
+  min-height: 596px;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.lots__item-heading {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.lots__item-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.lots__link-more {
+  align-self: start;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.film-item {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/card-lot-01.jpg') center / cover no-repeat;
+}
+
+.book-item {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/card-lot-02.jpg') center / cover no-repeat;
+}
+
+.picture-item {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/card-lot-03.jpg') center / cover no-repeat;
+}
+
+/* ABOUT START */
+
+.about {
+  display: flex;
+  padding: 120px 24px 180px 24px;
+  gap: 72px;
+}
+
+.about__img-container {
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 37px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.about__img {
+  width: 148px;
+}
+
+.about__text-container {
+  margin-top: 136px;
+  width: 693px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.about__text-container-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__text-container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+/* ABOUT END */
+
+.footer {
+  min-height: 180px;
+  font-size: 18px;
+}
+
+.footer .layout {
+  align-items: start;
+}
+
+.footer-memu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.social {
+  display: flex;
+  gap: 48px;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__img {
+  width: 48px;
+}
