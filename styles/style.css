@@ -147,7 +147,6 @@
 .lots__item {
   width: 334px;
   min-height: 596px;
-  padding: 48px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -157,6 +156,7 @@
 
 .lots__item-link {
   height: 100%;
+  padding: 48px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -258,7 +258,7 @@
 /* ABOUT END */
 
 .footer {
-  padding: 0 50px 88px 50px;
+  padding-bottom: 83px;
   font-size: 18px;
 }
 
